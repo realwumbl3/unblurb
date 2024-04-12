@@ -14,7 +14,7 @@ class CallIfNotExistsSet extends Set {
 function css(raw, ...data) {
     const style = document.createElement('style')
     style.innerHTML = raw
-    document.head.appendChild(style)
+    setTimeout(() => document.head.appendChild(style), 0)
     return style
 }
 
