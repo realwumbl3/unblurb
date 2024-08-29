@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "unBlurd. by wumbl3.",
-  "version": "69.420.7",
+  "version": "69.420.77",
   "content_scripts": [
     {
       "matches": [
